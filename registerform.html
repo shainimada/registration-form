@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+       <style>
+        body {
+            background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS_mY1JBt8hlRrkq68FqhhHfLraZuRMFyto3g&s");
+            background-repeat: no-repeat;
+            background-size: cover;
+                       
+        } 
+        
+    </style>
+</head>
+<body>
+    <center>
+        <form action="action_page.php">
+            <div class="container">
+                <center>
+                    <h1>RegisterForm</h1>
+                </center>                
+                <lable for="firstname"><b>Firstname</b></lable>
+                <input type="text" placeholder="enter firstname" name="firstname" id="firstname" required><br><br>
+                <lable for="lastname"><b>Lastname</b></lable>
+                <input type="text" placeholder="enter lastname" name="lastname" id="lastname" required><br><br>
+                <label for="email"><b>Email</b></label>
+                <input type="text" placeholder="Enter Email" name="email" id="email" required><br><br>
+                <label for="psw"><b>Password</b></label>
+                <input type="password" placeholder="Enter Password" name="psw" id="psw" required><br><br>
+                <label for="psw-repeat"><b>Repeat Password</b></label>
+                <input type="password" placeholder="Repeat Password" name="psw-repeat" id="psw-repeat" required><br><br>
+                <label for="birthday">Birthday:</label>
+                <input type="date" id="birthday" name="birthday"><br><br>
+                <label for="gender"><b>Gender:</b></label>
+                <select id="gender" name="gender" required>
+                    <option value="male">
+                        Male
+                    </option>
+                    <option value="female">
+                        Female
+                    </option>
+                    <option value="other">
+                        Other
+                    </option>
+                </select>           
+                <h1> Language</h1>
+                <input type="checkbox">
+                <lable>Java</lable>
+                <input type="checkbox">
+                <lable>.Net</lable>
+                <input type="checkbox">
+                <lable>Mainframes</lable>
+                <input type="checkbox">
+                <lable>Teasting</lable>
+                <label>
+                    <h1>Phonenumber</h1>
+                </label>
+                <input type="text" name="country code" value="+91" size="2" />
+                <input type="text" name="phone" size="10" /> <br> <br>
+                <h1>Address</h1>
+                <textarea cols="80" rows="5" value="address">
+                 </textarea>
+                <br> <br>
+                <input type="file" id="myFile" name="filename"><br>               
+                <input type="checkbox">
+                <lable>I agree</lable>
+                <br>
+                <button type="submit"><a href="registerform1.html">Register</a></button>
+                <button type="reset">Reset</button>
+            </div>
+        </form>
+    </center>
+</body>
+
+</html>
